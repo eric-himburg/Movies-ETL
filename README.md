@@ -10,4 +10,6 @@ Explanation here
 ## Data Table Examples
 ![Table showing cleaned movie data](screenshots/movie_data.png)
 
+![Table showing cleaned movie data](screenshots/merged_movie_data.png)
+
 ![Table showing movie ratings](screenshots/movie_ratings.png)
