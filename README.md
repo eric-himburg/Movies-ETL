@@ -12,8 +12,12 @@ Some of the data of a given column was in different formats.  To standardize the
 ![python example code #2](screenshots/python_coding_ex2.png)
 
 ## Data Table Examples
+Three different tables were generated from the Wikipedia and Kaggle data.  Below is a screenshot of the initial Wikipedia data set before it was merged with the Kaggle data.
+
 ![Table showing cleaned movie data](screenshots/movie_data.png)
 
+When the Wikipedia and Kaggle data were combined, they had several identical column data sets.  When they were merged, similar columns were marked as either coming from Wiki or Kaggle.  After merging, it had to be decided if one dataset was superior to the other or if the information from the two should be merged.  In most cases the Kaggle data was more descriptive and in a cleaner format.  However, overlapping Wiki data provided a useful way to fill in missing Kaggle data.  Below is a screen shot of a portion of the merged data: note the "title_wiki" column where all titles originated from the Wiki data set.   
 ![Table showing cleaned movie data](screenshots/merged_movie_data.png)
+
 
 ![Table showing movie ratings](screenshots/movie_ratings.png)
