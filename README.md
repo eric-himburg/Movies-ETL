@@ -16,7 +16,7 @@ Three different tables were generated from the Wikipedia and Kaggle data.  Below
 
 ![Table showing cleaned movie data](screenshots/movie_data.png)
 
-When the Wikipedia and Kaggle data were combined, they had several identical column data sets.  When they were merged, similar columns were marked as either coming from Wiki or Kaggle.  After merging, it had to be decided if one dataset was superior to the other or if the information from the two should be merged.  In most cases the Kaggle data was more descriptive and in a cleaner format.  However, overlapping Wiki data provided a useful way to fill in missing Kaggle data.  Below is a screen shot of a portion of the merged data: note the "title_wiki" column where all titles originated from the Wiki data set.   
+When the Wikipedia and Kaggle data were combined, they had several identical column data sets.  When they were merged, similar columns were marked as either coming from Wiki or Kaggle.  After merging, it had to be decided if one dataset was superior to the other or if the information from the two should be merged.  In most cases the Kaggle data was more descriptive and in a cleaner format.  However, overlapping Wiki data provided a useful way to fill in missing Kaggle data.  Below is a screen shot of a portion of the merged data: note the "title_wiki" column where all titles originated from Wikipedia and the "release_date_kaggle" where all the movie release date originated from Kaggle. 
 ![Table showing cleaned movie data](screenshots/merged_movie_data.png)
 
 
